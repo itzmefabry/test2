@@ -36,12 +36,29 @@ namespace prueba
 		/// </summary>
 		private void InitializeComponent()
 		{
+			this.radioButton1 = new System.Windows.Forms.RadioButton();
+			this.SuspendLayout();
+			// 
+			// radioButton1
+			// 
+			this.radioButton1.Location = new System.Drawing.Point(114, 61);
+			this.radioButton1.Name = "radioButton1";
+			this.radioButton1.Size = new System.Drawing.Size(104, 24);
+			this.radioButton1.TabIndex = 0;
+			this.radioButton1.TabStop = true;
+			this.radioButton1.Text = "radioButton1";
+			this.radioButton1.UseVisualStyleBackColor = true;
 			// 
 			// multiplicacion
 			// 
+			this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			this.Text = "multiplicacion";
+			this.ClientSize = new System.Drawing.Size(278, 244);
+			this.Controls.Add(this.radioButton1);
 			this.Name = "multiplicacion";
+			this.Text = "multiplicacion";
+			this.ResumeLayout(false);
 		}
+		private System.Windows.Forms.RadioButton radioButton1;
 	}
 }
