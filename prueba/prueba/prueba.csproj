@@ -70,8 +70,8 @@
     <EmbeddedResource Include="MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="multiplicacion.resx">
-      <DependentUpon>multiplicacion.cs</DependentUpon>
+    <EmbeddedResource Include="resta.resx">
+      <DependentUpon>resta.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
