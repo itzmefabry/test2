@@ -36,12 +36,27 @@ namespace prueba
 		/// </summary>
 		private void InitializeComponent()
 		{
+			this.checkedListBox1 = new System.Windows.Forms.CheckedListBox();
+			this.SuspendLayout();
+			// 
+			// checkedListBox1
+			// 
+			this.checkedListBox1.FormattingEnabled = true;
+			this.checkedListBox1.Location = new System.Drawing.Point(69, 73);
+			this.checkedListBox1.Name = "checkedListBox1";
+			this.checkedListBox1.Size = new System.Drawing.Size(120, 88);
+			this.checkedListBox1.TabIndex = 0;
 			// 
 			// resta
 			// 
+			this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			this.Text = "resta";
+			this.ClientSize = new System.Drawing.Size(278, 244);
+			this.Controls.Add(this.checkedListBox1);
 			this.Name = "resta";
+			this.Text = "resta";
+			this.ResumeLayout(false);
 		}
+		private System.Windows.Forms.CheckedListBox checkedListBox1;
 	}
 }
